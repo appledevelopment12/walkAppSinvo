@@ -23,9 +23,6 @@ class CollectionViewCell2: UICollectionViewCell {
     }
 
     
-    
-    
-    
     func setup2(category:collect2)
     {
      
@@ -40,14 +37,4 @@ class CollectionViewCell2: UICollectionViewCell {
     
     
 }
-//struct collect2
-//{
-//    let imageName:String
-//    let imageNamee:String
-//    init(_Imgname:String, _imagenamee:String)
-//    {
-//
-//        self.imageName = _Imgname
-//        self.imageNamee = _imagenamee
-//    }
-//}
+

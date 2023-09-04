@@ -9,23 +9,18 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    
+    
+    
     @IBOutlet var CollectionView1:UICollectionView!
-    
     @IBOutlet weak var collectionView2: UICollectionView!
-    
-    
     @IBOutlet weak var ui: UIView!
-    
-    
-    
     var currentcellIndex = 0
     var webSeriesImages = ["offer","offer","offer","offer","offer"]
-    
-    
     @IBOutlet weak var page: UIPageControl!
-    
-    
     var timer:Timer?
+    
+    
     var categories2 = [
         
         collect2(_Imgname: "saloon", _imagenamee: "Saloon"),
@@ -35,18 +30,13 @@ class HomeViewController: UIViewController {
         collect2(_Imgname: "vector_smart_object_4", _imagenamee: "Grocery"),
         collect2(_Imgname: "saloon", _imagenamee: "Saloon"),
         collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
-
-
     ]
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
         registerNib()
-        
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(slideToNext), userInfo: nil, repeats: true)
         page.numberOfPages = webSeriesImages.count
         ui.layer.cornerRadius = 10
@@ -76,12 +66,6 @@ class HomeViewController: UIViewController {
         collectionView2.register(UINib(nibName: CollectionViewCell2.identifier, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell2.identifier)
     
     }
-    
-    
-    
-    
-    
-
     
 }
 
