@@ -16,6 +16,20 @@
 		5DDFBCA42AA5AA0600B026DD /* walkAppSinvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCA32AA5AA0600B026DD /* walkAppSinvoTests.swift */; };
 		5DDFBCAE2AA5AA0600B026DD /* walkAppSinvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCAD2AA5AA0600B026DD /* walkAppSinvoUITests.swift */; };
 		5DDFBCB02AA5AA0600B026DD /* walkAppSinvoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCAF2AA5AA0600B026DD /* walkAppSinvoUITestsLaunchTests.swift */; };
+		5DDFBCBD2AA5AAC300B026DD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCBC2AA5AAC300B026DD /* TabBarViewController.swift */; };
+		5DDFBCC12AA5AB4100B026DD /* MyBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCC02AA5AB4100B026DD /* MyBookingViewController.swift */; };
+		5DDFBCC32AA5AB5A00B026DD /* ScanQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCC22AA5AB5A00B026DD /* ScanQrViewController.swift */; };
+		5DDFBCC52AA5AB6700B026DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCC42AA5AB6700B026DD /* HomeViewController.swift */; };
+		5DDFBCC72AA5AB7700B026DD /* MyQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCC62AA5AB7700B026DD /* MyQrViewController.swift */; };
+		5DDFBCC92AA5AB8B00B026DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCC82AA5AB8B00B026DD /* ProfileViewController.swift */; };
+		5DDFBCD42AA5C05F00B026DD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD32AA5C05F00B026DD /* DataService.swift */; };
+		5DDFBCD62AA5C47E00B026DD /* collectionView1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD52AA5C47E00B026DD /* collectionView1Model.swift */; };
+		5DDFBCD92AA5CDC100B026DD /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */; };
+		5DDFBCDA2AA5CDC100B026DD /* CollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */; };
+		5DDFBCDC2AA5D79E00B026DD /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDB2AA5D79E00B026DD /* cardView.swift */; };
+		5DDFBCDE2AA5E8C400B026DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */; };
+		5DDFBCE02AA5EA3F00B026DD /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */; };
+		5DDFBCE22AA602F800B026DD /* collectionViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCE12AA602F800B026DD /* collectionViewModel2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		5DDFBCA92AA5AA0600B026DD /* walkAppSinvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walkAppSinvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFBCAD2AA5AA0600B026DD /* walkAppSinvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkAppSinvoUITests.swift; sourceTree = "<group>"; };
 		5DDFBCAF2AA5AA0600B026DD /* walkAppSinvoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkAppSinvoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DDFBCBC2AA5AAC300B026DD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5DDFBCC02AA5AB4100B026DD /* MyBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingViewController.swift; sourceTree = "<group>"; };
+		5DDFBCC22AA5AB5A00B026DD /* ScanQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrViewController.swift; sourceTree = "<group>"; };
+		5DDFBCC42AA5AB6700B026DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5DDFBCC62AA5AB7700B026DD /* MyQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQrViewController.swift; sourceTree = "<group>"; };
+		5DDFBCC82AA5AB8B00B026DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5DDFBCD32AA5C05F00B026DD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5DDFBCD52AA5C47E00B026DD /* collectionView1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionView1Model.swift; sourceTree = "<group>"; };
+		5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell2.xib; sourceTree = "<group>"; };
+		5DDFBCDB2AA5D79E00B026DD /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		5DDFBCE12AA602F800B026DD /* collectionViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewModel2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,10 @@
 		5DDFBC8B2AA5AA0000B026DD /* walkAppSinvo */ = {
 			isa = PBXGroup;
 			children = (
+				5DDFBCD22AA5C04600B026DD /* DataService */,
+				5DDFBCCC2AA5BDB900B026DD /* Controller */,
+				5DDFBCCB2AA5BDA500B026DD /* View */,
+				5DDFBCCA2AA5BD9700B026DD /* Model */,
 				5DDFBC8C2AA5AA0000B026DD /* AppDelegate.swift */,
 				5DDFBC8E2AA5AA0000B026DD /* SceneDelegate.swift */,
 				5DDFBC902AA5AA0000B026DD /* ViewController.swift */,
@@ -125,6 +157,56 @@
 				5DDFBCAF2AA5AA0600B026DD /* walkAppSinvoUITestsLaunchTests.swift */,
 			);
 			path = walkAppSinvoUITests;
+			sourceTree = "<group>";
+		};
+		5DDFBCCA2AA5BD9700B026DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFBCE12AA602F800B026DD /* collectionViewModel2.swift */,
+				5DDFBCD52AA5C47E00B026DD /* collectionView1Model.swift */,
+				5DDFBCDB2AA5D79E00B026DD /* cardView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DDFBCCB2AA5BDA500B026DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */,
+				5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */,
+				5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DDFBCCC2AA5BDB900B026DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFBCCD2AA5BDCA00B026DD /* TabBarController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5DDFBCCD2AA5BDCA00B026DD /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFBCC02AA5AB4100B026DD /* MyBookingViewController.swift */,
+				5DDFBCBC2AA5AAC300B026DD /* TabBarViewController.swift */,
+				5DDFBCC42AA5AB6700B026DD /* HomeViewController.swift */,
+				5DDFBCC82AA5AB8B00B026DD /* ProfileViewController.swift */,
+				5DDFBCC62AA5AB7700B026DD /* MyQrViewController.swift */,
+				5DDFBCC22AA5AB5A00B026DD /* ScanQrViewController.swift */,
+				5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		5DDFBCD22AA5C04600B026DD /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFBCD32AA5C05F00B026DD /* DataService.swift */,
+			);
+			path = DataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +316,7 @@
 				5DDFBC992AA5AA0500B026DD /* LaunchScreen.storyboard in Resources */,
 				5DDFBC962AA5AA0500B026DD /* Assets.xcassets in Resources */,
 				5DDFBC942AA5AA0000B026DD /* Main.storyboard in Resources */,
+				5DDFBCDA2AA5CDC100B026DD /* CollectionViewCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDFBCBD2AA5AAC300B026DD /* TabBarViewController.swift in Sources */,
+				5DDFBCC12AA5AB4100B026DD /* MyBookingViewController.swift in Sources */,
 				5DDFBC912AA5AA0000B026DD /* ViewController.swift in Sources */,
+				5DDFBCC72AA5AB7700B026DD /* MyQrViewController.swift in Sources */,
+				5DDFBCD42AA5C05F00B026DD /* DataService.swift in Sources */,
+				5DDFBCE02AA5EA3F00B026DD /* CollectionViewCell1.swift in Sources */,
 				5DDFBC8D2AA5AA0000B026DD /* AppDelegate.swift in Sources */,
+				5DDFBCD92AA5CDC100B026DD /* CollectionViewCell2.swift in Sources */,
+				5DDFBCDC2AA5D79E00B026DD /* cardView.swift in Sources */,
+				5DDFBCC32AA5AB5A00B026DD /* ScanQrViewController.swift in Sources */,
+				5DDFBCC92AA5AB8B00B026DD /* ProfileViewController.swift in Sources */,
+				5DDFBCC52AA5AB6700B026DD /* HomeViewController.swift in Sources */,
+				5DDFBCD62AA5C47E00B026DD /* collectionView1Model.swift in Sources */,
+				5DDFBCDE2AA5E8C400B026DD /* TabBarView.swift in Sources */,
 				5DDFBC8F2AA5AA0000B026DD /* SceneDelegate.swift in Sources */,
+				5DDFBCE22AA602F800B026DD /* collectionViewModel2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
