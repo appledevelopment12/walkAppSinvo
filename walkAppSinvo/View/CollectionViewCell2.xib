@@ -21,16 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="101" height="93"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjK-PO-rSQ">
-                                <rect key="frame" x="27" y="74" width="52" height="14"/>
+                                <rect key="frame" x="27" y="78" width="52" height="10"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fWv-BU-vjc">
-                                <rect key="frame" x="27" y="13" width="52" height="56"/>
+                                <rect key="frame" x="27" y="13" width="52" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="z8P-bg-lgK"/>
-                                    <constraint firstAttribute="height" constant="56" id="zJe-Nq-wfb"/>
+                                    <constraint firstAttribute="height" constant="60" id="zJe-Nq-wfb"/>
                                 </constraints>
                             </imageView>
                         </subviews>
