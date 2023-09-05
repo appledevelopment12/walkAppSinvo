@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA0A6DE2AA75C1600F8A454 /* cardView in Resources */ = {isa = PBXBuildFile; fileRef = 5DA0A6DD2AA75C1600F8A454 /* cardView */; };
 		5DDFBC8D2AA5AA0000B026DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBC8C2AA5AA0000B026DD /* AppDelegate.swift */; };
 		5DDFBC8F2AA5AA0000B026DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBC8E2AA5AA0000B026DD /* SceneDelegate.swift */; };
 		5DDFBC912AA5AA0000B026DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBC902AA5AA0000B026DD /* ViewController.swift */; };
@@ -25,7 +26,6 @@
 		5DDFBCD42AA5C05F00B026DD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD32AA5C05F00B026DD /* DataService.swift */; };
 		5DDFBCD62AA5C47E00B026DD /* collectionView1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD52AA5C47E00B026DD /* collectionView1Model.swift */; };
 		5DDFBCD92AA5CDC100B026DD /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */; };
-		5DDFBCDA2AA5CDC100B026DD /* CollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */; };
 		5DDFBCDC2AA5D79E00B026DD /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDB2AA5D79E00B026DD /* cardView.swift */; };
 		5DDFBCDE2AA5E8C400B026DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */; };
 		5DDFBCE02AA5EA3F00B026DD /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */; };
@@ -50,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DA0A6DD2AA75C1600F8A454 /* cardView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cardView; path = "../../../../ui/ui/Customer View/collectionViewcell/cardView"; sourceTree = "<group>"; };
 		5DDFBC892AA5AA0000B026DD /* walkAppSinvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walkAppSinvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFBC8C2AA5AA0000B026DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDFBC8E2AA5AA0000B026DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		5DDFBCD32AA5C05F00B026DD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5DDFBCD52AA5C47E00B026DD /* collectionView1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionView1Model.swift; sourceTree = "<group>"; };
 		5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
-		5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell2.xib; sourceTree = "<group>"; };
 		5DDFBCDB2AA5D79E00B026DD /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 		5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
@@ -173,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				5DDFBCD72AA5CDC100B026DD /* CollectionViewCell2.swift */,
-				5DDFBCD82AA5CDC100B026DD /* CollectionViewCell2.xib */,
 				5DDFBCDF2AA5EA3F00B026DD /* CollectionViewCell1.swift */,
 			);
 			path = View;
@@ -193,6 +192,7 @@
 				5DDFBCC02AA5AB4100B026DD /* MyBookingViewController.swift */,
 				5DDFBCBC2AA5AAC300B026DD /* TabBarViewController.swift */,
 				5DDFBCC42AA5AB6700B026DD /* HomeViewController.swift */,
+				5DA0A6DD2AA75C1600F8A454 /* cardView */,
 				5DDFBCC82AA5AB8B00B026DD /* ProfileViewController.swift */,
 				5DDFBCC62AA5AB7700B026DD /* MyQrViewController.swift */,
 				5DDFBCC22AA5AB5A00B026DD /* ScanQrViewController.swift */,
@@ -314,9 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDFBC992AA5AA0500B026DD /* LaunchScreen.storyboard in Resources */,
+				5DA0A6DE2AA75C1600F8A454 /* cardView in Resources */,
 				5DDFBC962AA5AA0500B026DD /* Assets.xcassets in Resources */,
 				5DDFBC942AA5AA0000B026DD /* Main.storyboard in Resources */,
-				5DDFBCDA2AA5CDC100B026DD /* CollectionViewCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

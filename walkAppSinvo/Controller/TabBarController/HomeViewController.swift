@@ -30,13 +30,16 @@ class HomeViewController: UIViewController {
         collect2(_Imgname: "vector_smart_object_4", _imagenamee: "Grocery"),
         collect2(_Imgname: "saloon", _imagenamee: "Saloon"),
         collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
+        collect2(_Imgname: "vector_smart_object_4", _imagenamee: "Grocery"),
+        collect2(_Imgname: "saloon", _imagenamee: "Saloon"),
+        collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
     ]
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        registerNib()
+        //registerNib()
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(slideToNext), userInfo: nil, repeats: true)
         page.numberOfPages = webSeriesImages.count
         ui.layer.cornerRadius = 10
@@ -59,13 +62,13 @@ class HomeViewController: UIViewController {
         CollectionView1.scrollToItem(at:IndexPath(item:currentcellIndex,section: 0),at: .right , animated:true)
     }
 
-    private func registerNib()
-    {
-      //  CollectionView1.register(UINib(nibName: CollectionViewCell1.identifier, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell1.identifier)
-       
-        collectionView2.register(UINib(nibName: CollectionViewCell2.identifier, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell2.identifier)
-    
-    }
+//    private func registerNib()
+//    {
+//      //  CollectionView1.register(UINib(nibName: CollectionViewCell1.identifier, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell1.identifier)
+//
+//        collectionView2.register(UINib(nibName: CollectionViewCell2.identifier, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell2.identifier)
+//
+//    }
     
 }
 
@@ -87,7 +90,7 @@ extension  HomeViewController:UICollectionViewDelegate,UICollectionViewDataSourc
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == CollectionView1
         {
-            let cell = CollectionView1.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell1
+            let cell = CollectionView1.dequeueReusableCell(withReuseIdentifier: "cell1", for: indexPath) as! CollectionViewCell1
             
             cell.img1.image = UIImage(named: webSeriesImages[indexPath.row])
 
@@ -96,44 +99,50 @@ extension  HomeViewController:UICollectionViewDelegate,UICollectionViewDataSourc
         }
         else if collectionView == collectionView2
         {
-            let cell = collectionView2.dequeueReusableCell(withReuseIdentifier: CollectionViewCell2.identifier, for: indexPath) as! CollectionViewCell2
+            let cell = collectionView2.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CollectionViewCell2
             cell.setup2(category: categories2[indexPath.row])
+            cell.layer.cornerRadius = 20
+            cell.layer.shadowOpacity = 0.1
+            cell.layer.shadowColor = UIColor.blue.cgColor
+            cell.layer.shadowOffset = .zero
+           
+            
             return cell
         }
        
        return CollectionViewCell1()
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-
-
-         if (collectionView == self.collectionView2)
-        {
-            return 20
-        }
-        return 20
-
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-
-
-         if (collectionView == self.collectionView2)
-        {
-            return 20
-        }
-        return 20
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-       
-        
-         if (collectionView == self.collectionView2)
-        {
-            let width = collectionView2.bounds.width
-            let height =  collectionView2.bounds.height
-            
-            return CGSize(width: width/3-20, height: height/3-20)
-        }
-       return   CGSize(width: 20, height: 20)
-    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//
+//
+//         if (collectionView == self.collectionView2)
+//        {
+//            return 10
+//        }
+//        return 10
+//
+//    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+//
+//
+//         if (collectionView == self.collectionView2)
+//        {
+//            return 10
+//        }
+//        return 10
+//    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//
+//
+//         if (collectionView == self.collectionView2)
+//        {
+//             let width = collectionView2.frame.width
+//             let height =  collectionView2.frame.height
+//
+//            return CGSize(width: width/4-10,height: height/3-10)
+//        }
+//       return   CGSize(width: 10, height: 10)
+//    }
 
     
 }
