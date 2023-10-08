@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D9018D12ACAB5B00002A9D8 /* navitaionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9018D02ACAB5B00002A9D8 /* navitaionViewController.swift */; };
 		5DA0A6DE2AA75C1600F8A454 /* cardView in Resources */ = {isa = PBXBuildFile; fileRef = 5DA0A6DD2AA75C1600F8A454 /* cardView */; };
 		5DDFBC8D2AA5AA0000B026DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBC8C2AA5AA0000B026DD /* AppDelegate.swift */; };
 		5DDFBC8F2AA5AA0000B026DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFBC8E2AA5AA0000B026DD /* SceneDelegate.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D9018D02ACAB5B00002A9D8 /* navitaionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navitaionViewController.swift; sourceTree = "<group>"; };
 		5DA0A6DD2AA75C1600F8A454 /* cardView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cardView; path = "../../../../ui/ui/Customer View/collectionViewcell/cardView"; sourceTree = "<group>"; };
 		5DDFBC892AA5AA0000B026DD /* walkAppSinvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walkAppSinvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFBC8C2AA5AA0000B026DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				5DA0A6DD2AA75C1600F8A454 /* cardView */,
 				5DDFBCC82AA5AB8B00B026DD /* ProfileViewController.swift */,
 				5DDFBCC62AA5AB7700B026DD /* MyQrViewController.swift */,
+				5D9018D02ACAB5B00002A9D8 /* navitaionViewController.swift */,
 				5DDFBCC22AA5AB5A00B026DD /* ScanQrViewController.swift */,
 				5DDFBCDD2AA5E8C400B026DD /* TabBarView.swift */,
 			);
@@ -345,6 +348,7 @@
 				5DDFBCC12AA5AB4100B026DD /* MyBookingViewController.swift in Sources */,
 				5DDFBC912AA5AA0000B026DD /* ViewController.swift in Sources */,
 				5DDFBCC72AA5AB7700B026DD /* MyQrViewController.swift in Sources */,
+				5D9018D12ACAB5B00002A9D8 /* navitaionViewController.swift in Sources */,
 				5DDFBCD42AA5C05F00B026DD /* DataService.swift in Sources */,
 				5DDFBCE02AA5EA3F00B026DD /* CollectionViewCell1.swift in Sources */,
 				5DDFBC8D2AA5AA0000B026DD /* AppDelegate.swift in Sources */,

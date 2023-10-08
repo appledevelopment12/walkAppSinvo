@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    
+
     
     
     @IBOutlet var CollectionView1:UICollectionView!
@@ -32,7 +32,7 @@ class HomeViewController: UIViewController {
         collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
         collect2(_Imgname: "vector_smart_object_4", _imagenamee: "Grocery"),
         collect2(_Imgname: "saloon", _imagenamee: "Saloon"),
-        collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
+      //  collect2(_Imgname: "ic_retail", _imagenamee: "Retail"),
     ]
     
     
@@ -102,9 +102,10 @@ extension  HomeViewController:UICollectionViewDelegate,UICollectionViewDataSourc
             let cell = collectionView2.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CollectionViewCell2
             cell.setup2(category: categories2[indexPath.row])
             cell.layer.cornerRadius = 20
-            cell.layer.shadowOpacity = 0.1
+            cell.layer.shadowOpacity = 0.2
             cell.layer.shadowColor = UIColor.blue.cgColor
             cell.layer.shadowOffset = .zero
+            cell.layer.shadowRadius = 10
            
             
             return cell
@@ -143,6 +144,17 @@ extension  HomeViewController:UICollectionViewDelegate,UICollectionViewDataSourc
 //        }
 //       return   CGSize(width: 10, height: 10)
 //    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        //   let selectedCell:UICollectionViewCell = collectionView2.cellForRow(at: indexPath)!
+        //  selectedCell.contentView.backgroundColor = UIColor.green)
+        let selectedCell:UICollectionViewCell = collectionView2.cellForItem(at: indexPath)!
+        
+        print(selectedCell)
+    }
+    
+  
+    
+    
 
     
 }

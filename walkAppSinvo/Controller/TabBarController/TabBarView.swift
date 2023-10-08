@@ -48,8 +48,8 @@ class TabBarView: UITabBar {
         path.addLine(to: CGPoint(x: centeredWidh - height * 2 , y: 0))
         
         path.addCurve(to: CGPoint(x: centeredWidh, y: height),
-                      controlPoint1: CGPoint(x: centeredWidh - 30 , y: 0),
-                      controlPoint2: CGPoint(x: centeredWidh - 35, y: height))
+                      controlPoint1: CGPoint(x: centeredWidh - 30 , y: 0),//30
+                      controlPoint2: CGPoint(x: centeredWidh - 35, y: height))//35
         
         path.addCurve(to: CGPoint(x: centeredWidh + height * 2, y: 0),
                       controlPoint1: CGPoint(x: centeredWidh + 35 , y: height),
